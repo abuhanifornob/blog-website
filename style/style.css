@@ -1,0 +1,501 @@
+/* reset code and common code starts here  */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    outline: 0;
+    font-weight: 400;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0rem 0.1rem #c4c4c4;
+}
+
+.btn {
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    box-shadow: 2px 2px 3px white;
+}
+
+
+/* reset code and common code End here  */
+
+
+/* header Section Designe Start Hear*/
+
+#blog-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: wheat;
+}
+
+.logo-figure img {
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    margin-right: 15px;
+    transition: all 0.5s;
+}
+
+nav ul li:hover {
+    background-color: darkslategrey;
+    color: white;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    color: wheat;
+}
+
+
+/* header Section Designe End Hear*/
+
+
+/*banner section designe Start Hear*/
+
+#banner-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-section aside img {
+    width: 600px;
+    height: 570px;
+    border: 2px solid;
+    margin: 50px 20px;
+    text-align: center;
+}
+
+#banner-section article {
+    flex: 0.5;
+    font-size: 20px;
+    text-align: justify;
+    padding: 0px 20px;
+}
+
+#banner-section article h1 {
+    font-size: 38px;
+    font-weight: bolder;
+    background-color: darkslategrey;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    color: wheat;
+}
+
+#banner-section aside {
+    flex: 0.5;
+}
+
+
+/*banner section designe End Hear*/
+
+
+/*............About Section Start Hear .............*/
+
+#about {
+    background-color: #4C4C4C;
+}
+
+.about-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    color: white;
+}
+
+.about-header h2 {
+    font-size: 62px;
+    font-family: 'My Soul', cursive;
+    color: white
+}
+
+.cart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    background-color: #A09D9D;
+    margin: 15px 18px;
+    padding: 15px;
+    transition: 1s;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: scale(1.08);
+}
+
+.card-header {
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.card-discription {
+    text-align: justify;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.card-btn {
+    margin: 10px 0;
+    background-color: darkslategray;
+    border: none;
+    width: 70%;
+}
+
+
+/*............About Section End Hear .............*/
+
+
+/* Achive Section designe Start ......*/
+
+#achive {
+    background-color: slategrey;
+}
+
+.achive-img {
+    width: 150px;
+    height: 150px;
+}
+
+.achives-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 150px;
+    margin-bottom: 5px;
+}
+
+.achives-header h1 {
+    font-size: 62px;
+    font-family: 'My Soul', cursive;
+}
+
+.achives-container {
+    margin: 0 5px;
+    padding: 10px 0;
+    display: flex;
+    background-color: slategrey;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 50px;
+}
+
+.contant-img>img {
+    margin: 0px 10px;
+    padding: 15px 0;
+    transition: 0.5s;
+    border-radius: 20px;
+}
+
+.achives-container>.contant-img :hover {
+    transform: scale(1.1);
+}
+
+
+/* Achive Section designe End ......*/
+
+
+/*..........Blog designe Start Hear...........*/
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+#blog {
+    padding: 100px;
+    background-color: #4C4C4C;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 2px rgb(41, 39, 39), -2px 0 rgb(41, 39, 39);
+    margin: 15px 0;
+    transition: 1s;
+    line-height: 18px;
+    padding: 0 15px;
+}
+
+.blog-content:hover {
+    transform: scale(1.1);
+}
+
+.blog-container h1 {
+    font-size: 62px;
+    font-family: 'My Soul', cursive;
+    margin-bottom: 32px;
+}
+
+.aside-img {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+}
+
+.aside-banner {
+    flex: 1;
+}
+
+.blog-article {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.blog-article>h2 {
+    font-size: 32px;
+    margin: 15px 0;
+}
+
+.blog-article>h3 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+.blog-article>p {
+    font-size: 20px;
+}
+
+.blog-btn {
+    font-size: 18px;
+    width: 200px;
+    text-align: center;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+/*..........Blog designe End Hear...........*/
+
+
+/* Contact Designe start hear...............*/
+
+.contact-section {
+    background-color: #c4c4c4;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(11, 71, 71);
+    box-shadow: 2px 2px 2px rgb(41, 39, 39), -2px 0 rgb(41, 39, 39);
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.contac-header h1 {
+    font-size: 62px;
+    font-family: 'My Soul', cursive;
+    margin: 32px 0;
+}
+
+.form-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.form-control label {
+    flex: 0.3;
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+}
+
+.contact-form {
+    margin-bottom: 10px;
+}
+
+.form-control>input,
+textarea {
+    padding: 10px;
+    flex: 0.7;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.from-btn {
+    display: block;
+    float: right;
+    width: 150px;
+    margin-right: 10px;
+}
+
+
+/* Contact Designe End hear...............*/
+
+
+/*.........Footer Section Start ...........*/
+
+.footer {
+    background-color: black;
+    color: wheat;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copy-right {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 28px;
+    color: white;
+}
+
+.socile-icon {
+    font-size: 24px;
+    padding: 15px;
+}
+
+.socile-icon i {
+    font-size: 24px;
+    margin-right: 32px;
+    padding: 10px;
+    color: white;
+}
+
+.socile-icon i:hover {
+    background-color: rgb(26, 11, 235);
+    border-radius: 10px;
+}
+
+
+/*.........Footer Section End............*/
+
+
+/* Responsive Designe Start hear*/
+
+@media (max-width:992px) {
+    #banner-section {
+        flex-direction: column;
+    }
+    #banner-section article h1 {
+        margin-top: 30px;
+    }
+    #banner-section article {
+        width: 80%;
+    }
+    .cart-container {
+        flex-direction: column;
+        margin: 0 20px;
+    }
+    .achive-img {
+        width: 120px;
+        height: 150px;
+    }
+}
+
+@media (max-width:768px) {
+    #blog-header {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        display: block;
+        font-size: 20px;
+        margin-right: 15px 0;
+        transition: all 0.5s;
+        text-align: center;
+    }
+    #banner-section aside img {
+        width: 500px;
+    }
+    #banner-section article p {
+        font-size: 18px;
+    }
+    #banner-section article {
+        width: 90%;
+    }
+    #banner-section article h1 {
+        font-size: 32px;
+    }
+    .achive-img {
+        width: 90px;
+        height: 150px;
+    }
+    .contant-img>img {
+        margin: 0px 5px;
+    }
+    .blog-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width:600px) {
+    #banner-section aside img {
+        width: 400px;
+    }
+    .achives-container {
+        flex-direction: column;
+    }
+    .achive-img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width:400px) {}
+
+
+/* Responsive Designe End hear*/
